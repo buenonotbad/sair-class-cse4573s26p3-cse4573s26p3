@@ -48,6 +48,6 @@ sh pack_submission.sh <YourUBITName>
 * Note: In the commands, use `python3` if your environment has python named as `python3` instead `python`.
 
 Change **`<YourUBITName>`** with your UBIT name.
-The resulting zip file should be named **"submission\_`<YourUBITName>`.zip"**, and it should contain 7 files, named **"result\_task1.json"**, **"result\_task1\_val.json,"**,**"result\_task2.json,"**,**"face.py,"**. If not, there is something wrong with your code/filename, please go back and check.
+The resulting zip file should be named **"submission\_`<YourUBITName>`.zip"**, and it should contain the following files: **"result\_task1.json"**, **"result\_task1\_val.json,"**,**"result\_task2.json,"**,**"face.py,"**,**"viz_task1.png,"**,**"viz_task2.png,"**. If not, there is something wrong with your code/filename, please go back and check.
 
 You should only submit the zip file.
