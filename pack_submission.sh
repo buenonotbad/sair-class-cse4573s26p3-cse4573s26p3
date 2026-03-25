@@ -1,7 +1,9 @@
 #!/bin/bash
 export CUDA_VISIBLE_DEVICES=7
 python task1.py --input_path validation_folder/images --output ./result_task1_val.json
+python ComputeFBeta/ComputeFBeta.py --preds result_task1_val.json --groundtruth validation_folder/ground-truth.json
 python task1.py --input_path test_folder/images --output ./result_task1.json
+python ComputeFBeta/ComputeFBeta.py --preds result_task1.json --groundtruth test_folder/images
 python task2.py --input_path faceCluster_5 --num_cluster 5
 python utils.py --ubit $1
 
